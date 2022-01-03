@@ -40,7 +40,7 @@
         * モチベーション2: また、[高級な機能を持つファイルシステムに高級なストレージソフトウェアレイヤを被せるのは無駄が多い](https://www.usenix.org/conference/fast14/technical-sessions/presentation/shen)という別の当たり前の結果も指摘されている。
         * すなわち: 「余計なことは何もしない」ようなファイルシステムを実装し、アプリケーションレイヤ（例えばPersistent KVS等）に書き込みや読み込みの最適化を任せるとどうなるか、を実験するためのplainなファイルシステムが実装したかった。よって実装した。
 
-Contributeしているリポジトリ（非個人のリポジトリ）
+### 非個人のContributeしているリポジトリ
 * https://github.com/frugalos/frugalos
     * 複数のコンポーネントからなる、分散オブジェクトストレージFrugalos
     * 主な貢献コンポーネント
