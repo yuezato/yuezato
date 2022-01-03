@@ -25,7 +25,7 @@
 
 ### 興味に関連する自分のリポジトリ
 * https://github.com/yuezato/xorslp_ec
-    * 概要: SC'21の論文（下欄で詳述）用リポジトリ。Erasure codingの高速実装を実現。現時点ではIntelのライブラリより高速。
+    * 概要: SC'21の論文（下欄で詳述）用リポジトリ。Erasure codingの高速実装を実現。現時点ではIntelのライブラリ https://github.com/intel/isa-l より高速。
     * 使用言語: Rust
     * やっていること: 有限体の実装, 文法圧縮アルゴリズムの実装, プログラム融合変換, Pebble Gameのヒューリスティック実装, SIMD最適化
 * https://github.com/yuezato/minfs
