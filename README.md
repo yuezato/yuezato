@@ -66,7 +66,7 @@ SCという、HPC分野のトップカンファレンスに採録されていま
 * 千葉工大での講演: https://stair-st.connpass.com/event/232242/
 * 情報処理学会プログラミング研究会 PRO での招待講演: https://sigpro.ipsj.or.jp/pro2021-4/program/
 
-# 主な論文/Publications in chronological order
+# 主な論文 / Publications in chronological order
 
 * Accelerating XOR-based erasure coding using program optimization techniques
     * Yuya Uezato
