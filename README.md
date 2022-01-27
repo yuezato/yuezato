@@ -10,6 +10,7 @@
     * URL: https://doi.org/10.15068/00152389
 * 2015/04--2018/03. JSPS 学振特別研究員 DC1 [研究プロジェクトページ](https://research-er.jp/projects/view/923384)
 * 2018/04--（現在): 株式会社ドワンゴ
+    * 分散オブジェクトストレージ[Frugalos](https://github.com/frugalos/frugalos)の基礎研究担当
 
 ## 興味 / Topics of my interest
 
