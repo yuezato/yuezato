@@ -1,9 +1,7 @@
-# 自己紹介 / Who am I?
+# 経歴 / Credentials
 
-## 経歴 / Credentials
-
-* 2008/04 -- 2013/03. 学士 筑波大学情報学群
-* 2013/04 -- 2015/03. 修士 筑波大学システム情報工学研究科
+* 2008/04 -- 2013/03. 学士 [筑波大学情報学群](https://inf.tsukuba.ac.jp/)
+* 2013/04 -- 2015/03. 修士 [筑波大学システム情報工学研究科](https://www.sie.tsukuba.ac.jp/)
 * 2015/04 -- 2018/03. 博士（工学） 筑波大学システム情報工学研究科
     * 博士論文: Timed Pushdown Automata: Expressiveness and Reachability
         * 邦題: 時間プッシュダウンオートマトンの表現力と到達可能性問題
@@ -12,19 +10,42 @@
 * 2018/04--（現在): 株式会社ドワンゴ
     * 分散オブジェクトストレージ[Frugalos](https://github.com/frugalos/frugalos)の基礎研究と開発に従事
 
-## 興味 / Topics of my interest
+# スキル / My Skills
 
+## 計算機科学の理論に関して
 * プログラム理論 / Theory of Program(ming)
 * オートマトン理論、形式言語理論 / Automata Theory, Formal Language Theory
 * ソフトウェア検証、プログラム検証 / Software Verification, Program Verification
 * プログラミングや検証のための論理 / Computational Logic
 * 定理証明系、定理証明支援系 / Proof Assistant(Coq, Agda2, Isabelle/HOL, etc.)
+* 分散計算、分散システムを支える理論 / Theory & Methods for Distributed Computing and Systems.
+
+それぞれのトピックに対応する論文も筆頭著者で出版しています。"主な論文"のセクションをご覧ください。
+
+## プログラミングに関して
+* Linuxカーネルプログラミング
+    * 高効率DBの実現を支えるファイルシステムの実装をしました https://github.com/yuezato/minfs
+* 習熟しているプログラミング言語
+  * C, C++, Rust, OCaml, Haskell, Coq
+      * Cに関しては「安全なC言語の処理系」を作る産総研(AIST)のプロジェクト FailSafeC をお手伝いしていました
+          * https://staff.aist.go.jp/y.oiwa/FailSafeC/
+          * 処理系はOCamlで書かれています
+      * Rustに関しては十万行スケールの分散オブジェクトストレージのOSS開発に主メンバとして携わっています
+          * https://github.com/frugalos/frugalos
+      * また、以下に記述する論文の実証ライブラリの実現にもRustを用いています
+          * https://github.com/yuezato/xorslp_ec
+      * Coqではこれに関する論文を一編出版しています http://id.nii.ac.jp/1001/00081612/
+
+# 現在の興味 / Topics of my interest
+
 * 大規模計算・システムを実現するためのプログラミング技術・証明
     * Storage technology: Erasure coding, Optimized File system for specific devices
     * Distributed Algorithms
     * Space-efficient Data structures
+* 機械学習で使われる統計や幾何的手法を用いた新たな（ノンスタンダードな）プログラム解析
+* プログラムの安全性に立脚するソフトウェアやシステムの安全性検証
 
-### 興味に関連する自分のリポジトリ
+## 興味に関連する自分のリポジトリ
 * https://github.com/yuezato/xorslp_ec
     * 概要: SC'21の論文（下欄で詳述）用リポジトリ。Erasure codingの高速実装を実現。現時点ではIntelのライブラリ https://github.com/intel/isa-l より高速。
     * 使用言語: Rust
@@ -41,7 +62,7 @@
         * モチベーション2: また、[高級な機能を持つファイルシステムに高級なストレージソフトウェアレイヤを被せるのは無駄が多い](https://www.usenix.org/conference/fast14/technical-sessions/presentation/shen)という別の当たり前の結果も指摘されている。
         * よって: 「余計なことは何もしない」ようなplainなファイルシステムを実装し、アプリケーションレイヤ（例えばPersistent KVS等）に書き込みや読み込みの最適化を任せるとどうなるか実験したかった。よって実装した。
 
-### 非個人のContributeしているリポジトリ
+## 非個人のContributeしているリポジトリ
 * https://github.com/frugalos/frugalos
     * 複数のコンポーネントからなる、分散オブジェクトストレージFrugalos
     * 主な貢献コンポーネント
