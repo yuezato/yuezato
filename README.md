@@ -7,17 +7,21 @@
         * 邦題: 時間プッシュダウンオートマトンの表現力と到達可能性問題
     * URL: https://doi.org/10.15068/00152389
 * 2015/04--2018/03. JSPS 学振特別研究員 DC1 [研究プロジェクトページ](https://research-er.jp/projects/view/923384)
-* 2018/04--（現在): 株式会社ドワンゴ
-    * 分散オブジェクトストレージ[Frugalos](https://github.com/frugalos/frugalos)の基礎研究と開発に従事
+* 2018/04--（現在): [株式会社ドワンゴ](https://dwango.co.jp/)
+    * 分散オブジェクトストレージ [Frugalos](https://github.com/frugalos/frugalos) の基礎研究と開発に従事
     * Keywords: Erasure Coding, Persistent Key-value Storage, Raft, MultiPaxos, Paxos
 
 # スキル / My Skills
 
+プログラムに関する理論を駆使し、様々な分野の未解決問題を解いたり、既存手法を拡張・高速化することに興味があります。
+
+理論的解析を行う道具として、automata theoryやcomputational logic、及びprogramming theoryに精通しています。<br/>
+特にautomata theoryに関する博士論文で博士号を取得しています。
+
 ## 計算機科学の理論に関して
 * プログラム理論 / Theory of Program(ming)
 * オートマトン理論、形式言語理論 / Automata Theory, Formal Language Theory
-* ソフトウェア検証、プログラム検証 / Software Verification, Program Verification
-* プログラミングや検証のための論理 / Computational Logic
+* ソフトウェア検証、プログラム検証、それらのための論理 / Software Verification, Program Verification, Computational Logic
 * 定理証明系、定理証明支援系 / Proof Assistant(Coq, Agda2, Isabelle/HOL, etc.)
 * 分散計算、分散システムを支える理論 / Theory & Methods for Distributed Computing and Systems.
 
@@ -25,32 +29,35 @@
 
 ## プログラミングに関して
 * Linuxカーネルプログラミング
-    * 高効率DBの実現を支えるファイルシステムの実装をしました https://github.com/yuezato/minfs
+    * 高効率DBを実装・検証するためのファイルシステムの実装をしました https://github.com/yuezato/minfs
 * 習熟しているプログラミング言語
   * C, C++, Rust, OCaml, Haskell, Coq
       * Cに関しては「安全なC言語の処理系」を作る産総研(AIST)のプロジェクト FailSafeC をお手伝いしていました
           * https://staff.aist.go.jp/y.oiwa/FailSafeC/
-          * 処理系はOCamlで書かれています
+          * 処理系の実装にはOCamlも使われています
       * Rustに関しては十万行スケールの分散オブジェクトストレージのOSS開発に主メンバとして携わっています
           * https://github.com/frugalos/frugalos
       * また、以下に記述する論文の実証ライブラリの実現にもRustを用いています
           * https://github.com/yuezato/xorslp_ec
-      * Coqではこれに関する論文を一編出版しています http://id.nii.ac.jp/1001/00081612/
+      * Coqではこれに関する論文を一編出版しています
+          * http://id.nii.ac.jp/1001/00081612/
 
-# 現在の興味 / Topics of my interest
-
-* 大規模計算・システムを実現するためのプログラミング技術・証明
-    * Storage technology: Erasure coding, Optimized File system for specific devices
+# 現在の興味 1: 大規模計算・システムを実現するためのプログラミング技術・証明
+Keywords
+    * Erasure coding, Optimized File system for specific devices
     * Distributed Algorithms
     * Space-efficient Data structures
-* 機械学習で使われる統計や幾何的手法を用いた新たな（ノンスタンダードな）プログラム解析
-    * プログラムの解析や検証に学習（≠ 深層学習）を使う方法はかなり浸透してきていると言えます: https://www.usenix.org/conference/osdi21/presentation/yao
-    * こうしたひとまず適用してみるの段階を超え、「なぜうまく行くのか・どういった構造がプログラムに隠されていたのか」を
-    機械学習の数学的基盤をもとに明らかにする、次のステップに興味があります。
-* プログラムの安全性に立脚するソフトウェアやシステムの安全性検証
-    * あいまいなcriteriaに訴える安全性検証を排し、安全か否かをエンジニアリングや計算の問題を介して形式化し、数理的に取り組むことに興味があります。
-    * 他の人の仕事ですが一例です: https://arxiv.org/abs/2010.12450, https://doi.org/10.11309/jssst.38.2_53
-        * これらはオートマトンの理論を用いてDoSに関する脅威を検証するお話です
+    
+会社で分散計算を実現するための開発を行い、この領域に関する興味が出てきました。
+
+例えば、2021年度は、単著論文 https://dl.acm.org/doi/abs/10.1145/3458817.3476204 を書きました。
+
+この論文では、大規模システムで不可欠な問題（Erasure codingの高速化）を、プログラムの理論を用いた理論的解析をもとに大幅に最適化しました。
+SCという、HPC分野のトップカンファレンスに採録されています: https://sc21.supercomputing.org/
+
+また本論文に関して、現時点（2022/01)で二件の講演を国内で行っています:
+* 千葉工大での講演: https://stair-st.connpass.com/event/232242/
+* 情報処理学会プログラミング研究会 PRO での招待講演: https://sigpro.ipsj.or.jp/pro2021-4/program/
 
 ## 興味に関連する自分のリポジトリ
 * https://github.com/yuezato/xorslp_ec
@@ -76,24 +83,18 @@
         * 分散アルゴリズムレイヤ https://github.com/frugalos/raftlog
         * （ローカル）オブジェクトストレージ https://github.com/frugalos/cannyls
 
-## 最近の興味に関する説明 / About my recent interest
+# 現在の興味 2: 機械学習で使われる統計や幾何的手法を用いた新たな（ノンスタンダードな）プログラム解析
+プログラムの解析や検証に学習（≠ 深層学習）を使う方法はかなり浸透してきていると言えます: https://www.usenix.org/conference/osdi21/presentation/yao
 
-プログラムに関する理論を駆使し、様々な分野の未解決問題を解いたり、既存手法を拡張・高速化することに興味があります。
+こうしたひとまず適用してみるの段階を超え、「なぜうまく行くのか・どういった構造がプログラムに隠されていたのか」を機械学習の数学的基盤をもとに明らかにする、次のステップに興味があります。
 
-理論的解析を行う道具として、automata theoryやcomputational logic、及びprogramming theoryに精通しています。<br/>
-特にautomata theoryに関する博士論文で博士号を取得しています。
+# 現在の興味 3: プログラムの安全性に立脚するソフトウェアやシステムの安全性検証
+あいまいなcriteriaに訴える安全性検証を排し、安全か否かをエンジニアリングや計算の問題を介して形式化し、数理的に取り組むことに興味があります。
 
-大学では上記のようなことをやってきましたが、会社で分散計算を実現するための開発を行い、
-新しく色々な領域に関する興味が出てきました（Topicsセクションの最後の部分がそれです）。
-
-例えば、2021年度は、単著論文 https://dl.acm.org/doi/abs/10.1145/3458817.3476204 を書きました。
-
-この論文では、大規模システムで不可欠な問題（Erasure codingの高速化）を、プログラムの理論を用いた理論的解析をもとに大幅に最適化しました。
-SCという、HPC分野のトップカンファレンスに採録されています: https://sc21.supercomputing.org/
-
-また本論文に関して、現時点（2022/01)で二件の講演を国内で行っています:
-* 千葉工大での講演: https://stair-st.connpass.com/event/232242/
-* 情報処理学会プログラミング研究会 PRO での招待講演: https://sigpro.ipsj.or.jp/pro2021-4/program/
+他の人の仕事ですが、やりたいことの一例です
+* https://arxiv.org/abs/2010.12450
+* https://doi.org/10.11309/jssst.38.2_53
+* これらはオートマトンの理論を用いてDoSに関する脅威を検証するお話です
 
 # 主な論文 / Publications in chronological order
 
