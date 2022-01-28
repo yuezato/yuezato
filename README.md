@@ -47,8 +47,7 @@
 ## 強み
 
 生きていると、何かが上手く行かないことを気づいていながらも、
-それが誰かによって解決されるまでは、問題として認識できていなかったと気づくことがあります。
-類似した話として、解決がなされることによってはじめて、問題として理解されるという現象もあります。
+それが誰かによって解決されるまでは、問題があったと自覚できていなかった・問題の切り口を認識できていなかったと気づくことがあります。
 [コロンブスの卵](https://en.wikipedia.org/wiki/Egg_of_Columbus)や、
 [Peers's Law: 問題の解決は問題の性質を変える("The solution to a problem changes the nature of the problem")](https://www.nytimes.com/1979/02/12/archives/books-of-the-times-theyre-in-the-air-now.html)は、こういった事柄を端的に表しています。
 
@@ -78,10 +77,11 @@
 
 # 現在の興味 1
 ## 大規模計算・システムを実現するための技術・検証
+
 Keywords
-    * Erasure coding, Optimized File system for specific devices
-    * Distributed Algorithms
-    * Space-efficient Data structures
+* Erasure coding, Optimized File system for specific devices
+* Distributed Algorithms
+* Space-efficient Data structures
     
 ドワンゴで分散オブジェクトストレージ [Frugalos](https://github.com/frugalos/frugalos) を実現するうちに、
 大規模システムや分散計算という領域に興味が出てきました。
