@@ -49,9 +49,9 @@
 生きていると、何かが上手く行かないことを気づいていながらも、
 それが誰かによって解決されるまでは、問題があったと自覚できていなかった・問題の切り口を認識できていなかったと気づくことがあります。
 [コロンブスの卵](https://en.wikipedia.org/wiki/Egg_of_Columbus)や、
-[Peers's Law: 問題の解決は問題の性質を変える("The solution to a problem changes the nature of the problem")](https://www.nytimes.com/1979/02/12/archives/books-of-the-times-theyre-in-the-air-now.html)は、こういった事柄を端的に表しています。
+[Peers's Law: 問題の解決は問題の性質を変える("The solution to a problem changes the nature of the problem")](https://www.nytimes.com/1979/02/12/archives/books-of-the-times-theyre-in-the-air-now.html)は、そのような事柄を端的に表しています。
 
-こういった、問題として設定さえできれば解けたかもしれないのに、そもそも問題設定すらできないということは、
+こうした、問題として設定さえできれば解けたかもしれないのに、そもそも問題設定すらできないということは、
 上手く行かない状況を表現・形式化・記述するための道具が手許にない時に良くおこります。
 
 上里は、何かがうまくいかない状況ならなんでも問題化できる、という程の能力はありませんが、
