@@ -6,7 +6,9 @@
     * 博士論文: Timed Pushdown Automata: Expressiveness and Reachability
         * 邦題: 時間プッシュダウンオートマトンの表現力と到達可能性問題
     * URL: https://doi.org/10.15068/00152389
-* 2015/04--2018/03. JSPS 学振特別研究員 DC1 [研究プロジェクトページ](https://research-er.jp/projects/view/923384)
+* 2015/04--2018/03. JSPS 学振特別研究員 DC1
+    * [研究プロジェクトページ](https://research-er.jp/projects/view/923384)
+    * 研究テーマ: 再帰プログラムの拡張における到達可能性問題を広く可解とする構造の究明と応用
 * 2018/04--（現在): [株式会社ドワンゴ](https://dwango.co.jp/)
     * 分散オブジェクトストレージ [Frugalos](https://github.com/frugalos/frugalos) の基礎研究と開発に従事
     * Keywords: Erasure Coding, Persistent Key-Value Storage, Raft, MultiPaxos, Paxos
