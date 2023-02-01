@@ -15,6 +15,10 @@
     * 主要なサブリポジトリ1---分散アルゴリズム Raft レイヤ--- https://github.com/frugalos/raftlog
     * 主要なサブリポジトリ2---Persistent KVS--- https://github.com/frugalos/cannyls
 
+# 学会活動 / 教育等
+
+* PPL2023 プログラム委員 https://jssst-ppl.org/workshop/2023/
+
 # スキル
 
 ## 計算機科学の理論
